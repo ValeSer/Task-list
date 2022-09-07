@@ -72,8 +72,7 @@ input {
 
 .card-column input {
 	height: 18px;
-  margin-left: 15px;
-  display: grid;		
+  margin-left: 15px;		
 }
 
 .search-icon {
@@ -85,7 +84,8 @@ input {
 .card-column {
 	background-color: #ffffff;
 	gap: 10px;
-	min-height: 700px;
+    min-height: 700px;
+    display: grid;
 }
 
 .card-column h2 {
