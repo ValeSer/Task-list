@@ -81,13 +81,14 @@ input {
   margin-left: 7px;
 }
 
-.card-column {
+card-column {
 	background-color: #ffffff;
 	gap: 10px;
-    min-height: 700px;
-    display: grid;
-    grid-template-rows: 20px repeat(5, 100px);
-    align-content: center;
+	min-height: 700px;
+  display: grid;
+  grid-template-rows: 20px;
+  align-content: center;
+  grid-auto-rows: 100px;
 }
 
 .card-column h2 {
