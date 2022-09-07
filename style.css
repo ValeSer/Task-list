@@ -41,10 +41,10 @@ body {
 }
 
 .container {
-    width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+	width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .search-bar {
@@ -81,12 +81,12 @@ input {
   margin-left: 7px;
 }
 
-card-column {
+.card-column {
 	background-color: #ffffff;
 	gap: 10px;
 	min-height: 700px;
   display: grid;
-  grid-template-rows: 20px;
+  grid-template-rows: 20px 
   align-content: center;
   grid-auto-rows: 100px;
 }
